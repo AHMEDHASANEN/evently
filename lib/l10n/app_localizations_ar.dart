@@ -1,0 +1,184 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Arabic (`ar`).
+class AppLocalizationsAr extends AppLocalizations {
+  AppLocalizationsAr([String locale = 'ar']) : super(locale);
+
+  @override
+  String get language => 'اللغة';
+
+  @override
+  String get english => 'الانجليزية';
+
+  @override
+  String get arabic => 'العربية';
+
+  @override
+  String get theme => 'النمط';
+
+  @override
+  String get light => 'نهارى';
+
+  @override
+  String get dark => 'ليلى';
+
+  @override
+  String get dark_mode => 'الوضع اليللى';
+
+  @override
+  String get logout => 'تسجيل الخروج';
+
+  @override
+  String get home => 'الرئيسية';
+
+  @override
+  String get favorite => 'المفضله';
+
+  @override
+  String get profile => 'الملف الشخصى';
+
+  @override
+  String get skip => 'تخطى';
+
+  @override
+  String get next => 'التالى';
+
+  @override
+  String get get_started => 'ابدء';
+
+  @override
+  String get lets_start => 'ابدء';
+
+  @override
+  String get login_account => 'الدخول الى حسسابك';
+
+  @override
+  String get enter_mail => 'ادخل الايميل';
+
+  @override
+  String get enter_password => 'ادخل الرقم السرى';
+
+  @override
+  String get forget_password => 'نسيت كلمة السر ؟';
+
+  @override
+  String get login => 'الدخول';
+
+  @override
+  String get dont_have_account => 'ليس لديك حساب ؟';
+
+  @override
+  String get sign_up => 'تسجيل حساب';
+
+  @override
+  String get or => 'أو';
+
+  @override
+  String get login_with_Google => 'الدخول بحساب جوجل';
+
+  @override
+  String get create_account => 'انشاء حساب';
+
+  @override
+  String get enter_name => 'ادخل الاسم';
+
+  @override
+  String get confirm_password => 'تاكيد كلمة السر';
+
+  @override
+  String get alreay_account => 'لدى حساب بالفعل ؟';
+
+  @override
+  String get sign_up_google => 'التسجيل بحساب جوجل';
+
+  @override
+  String get reset_password => 'اعادة ظبط كلمة السر';
+
+  @override
+  String get search_for_event => 'البحث فى الاحداث';
+
+  @override
+  String get welcome_back => ' ✨ مرحبا بعودتك ';
+
+  @override
+  String get en => 'EN';
+
+  @override
+  String get all => 'الكل';
+
+  @override
+  String get sport => 'رياضة';
+
+  @override
+  String get birthday => 'عيدميلاد';
+
+  @override
+  String get meeting => 'مقابلة';
+
+  @override
+  String get book_club => 'نادى الكتب';
+
+  @override
+  String get exhibtion => 'استثناء';
+
+  @override
+  String get add_event => 'اضافة حدث';
+
+  @override
+  String get title => 'عنوان';
+
+  @override
+  String get event_title => 'عنوان الحدث';
+
+  @override
+  String get description => 'الوصف';
+
+  @override
+  String get event_description => '....... وصف الحدث';
+
+  @override
+  String get event_date => 'تاريخ الحدث';
+
+  @override
+  String get event_time => 'وقت الحدث';
+
+  @override
+  String get choose_date => 'اختار التاريخ';
+
+  @override
+  String get choose_time => 'اختار الوقت';
+
+  @override
+  String get event_details => 'تفاصيل الحدث';
+
+  @override
+  String get edit_event => 'تعديل الحدث';
+
+  @override
+  String get delete_event => 'حذف الحدث';
+
+  @override
+  String get delete_event_confirm => 'هل أنت متأكد من حذف هذا الحدث؟';
+
+  @override
+  String get cancel => 'إلغاء';
+
+  @override
+  String get delete => 'حذف';
+
+  @override
+  String get edit => 'تعديل';
+
+  @override
+  String get update_event => 'تحديث الحدث';
+
+  @override
+  String get event_deleted_successfully => 'تم حذف الحدث بنجاح';
+
+  @override
+  String get event_updated_successfully => 'تم تعديل الحدث بنجاح';
+}
